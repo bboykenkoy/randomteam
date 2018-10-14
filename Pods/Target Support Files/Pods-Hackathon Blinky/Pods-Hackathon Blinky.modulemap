@@ -1,0 +1,6 @@
+framework module Pods_Hackathon_Blinky {
+  umbrella header "Pods-Hackathon Blinky-umbrella.h"
+
+  export *
+  module * { export * }
+}

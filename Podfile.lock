@@ -1,0 +1,48 @@
+PODS:
+  - Alamofire (4.7.3)
+  - GSMessages (1.5.1)
+  - IQKeyboardManagerSwift (6.1.1)
+  - MBProgressHUD (1.1.0)
+  - Realm (3.7.5):
+    - Realm/Headers (= 3.7.5)
+  - Realm/Headers (3.7.5)
+  - RealmSwift (3.7.5):
+    - Realm (= 3.7.5)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - SwiftyJSON (4.1.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - GSMessages
+  - IQKeyboardManagerSwift
+  - MBProgressHUD (~> 1.1.0)
+  - RealmSwift
+  - SDWebImage (~> 4.0)
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - GSMessages
+    - IQKeyboardManagerSwift
+    - MBProgressHUD
+    - Realm
+    - RealmSwift
+    - SDWebImage
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  GSMessages: 2e6893301ae99f59d72a6d8c920ad41be407216c
+  IQKeyboardManagerSwift: 977affaeb4d6e971975c7790a6850f31d38f1207
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  Realm: c286caf4dbf346ce24aad49ca76c7ce622d4a082
+  RealmSwift: 2a9281e37d6de55f66f76254d49d28aeb1b729e4
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+
+PODFILE CHECKSUM: 2683a9181a1ec7a5f587274ae412fb8fb8b3ac7e
+
+COCOAPODS: 1.5.3

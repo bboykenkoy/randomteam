@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D778633217257C3007FCE8B /* PeopleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D778631217257C3007FCE8B /* PeopleCell.swift */; };
+		8D778634217257C3007FCE8B /* PeopleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D778632217257C3007FCE8B /* PeopleCell.xib */; };
+		8D77863721725A99007FCE8B /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D77863521725A99007FCE8B /* ContactViewController.swift */; };
+		8D77863C217261EC007FCE8B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D77863A217261EC007FCE8B /* SearchViewController.swift */; };
+		8D77863D217261EC007FCE8B /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D77863B217261EC007FCE8B /* SearchViewController.xib */; };
+		8D778640217267E5007FCE8B /* PeopleNameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D77863E217267E5007FCE8B /* PeopleNameCell.swift */; };
+		8D778641217267E5007FCE8B /* PeopleNameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D77863F217267E5007FCE8B /* PeopleNameCell.xib */; };
+		8D778644217282D6007FCE8B /* InputAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D778642217282D6007FCE8B /* InputAlertViewController.swift */; };
+		8D778645217282D6007FCE8B /* InputAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D778643217282D6007FCE8B /* InputAlertViewController.xib */; };
+		8D7786492172C750007FCE8B /* AddEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7786472172C750007FCE8B /* AddEventViewController.swift */; };
+		8D77864A2172C750007FCE8B /* AddEventViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D7786482172C750007FCE8B /* AddEventViewController.xib */; };
+		8D77864C2172C7B6007FCE8B /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D77864B2172C7B6007FCE8B /* Event.swift */; };
+		8D77864E2172CBB5007FCE8B /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D77864D2172CBB5007FCE8B /* EventsViewController.swift */; };
+		8D7786512172D155007FCE8B /* ChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D77864F2172D155007FCE8B /* ChooseViewController.swift */; };
+		8D77865A2172DC43007FCE8B /* ChooseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D7786592172DC43007FCE8B /* ChooseViewController.xib */; };
+		8D77865D2172E9CC007FCE8B /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D77865B2172E9CC007FCE8B /* EventCell.swift */; };
+		8D77865E2172E9CC007FCE8B /* EventCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D77865C2172E9CC007FCE8B /* EventCell.xib */; };
+		8D7786612172F162007FCE8B /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D77865F2172F162007FCE8B /* ResultViewController.swift */; };
+		8D7786622172F162007FCE8B /* ResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D7786602172F162007FCE8B /* ResultViewController.xib */; };
+		8D812E182171FC9500AB11BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D812E172171FC9500AB11BD /* AppDelegate.swift */; };
+		8D812E1A2171FC9500AB11BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D812E192171FC9500AB11BD /* ViewController.swift */; };
+		8D812E1D2171FC9500AB11BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D812E1B2171FC9500AB11BD /* Main.storyboard */; };
+		8D812E1F2171FC9700AB11BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D812E1E2171FC9700AB11BD /* Assets.xcassets */; };
+		8D812E222171FC9700AB11BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D812E202171FC9700AB11BD /* LaunchScreen.storyboard */; };
+		8D812E2B2172004900AB11BD /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D812E2A2172004900AB11BD /* App.swift */; };
+		8D812E2D2172004D00AB11BD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D812E2C2172004D00AB11BD /* Extensions.swift */; };
+		8D812E2F2172005400AB11BD /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D812E2E2172005400AB11BD /* Service.swift */; };
+		8D812E312172005A00AB11BD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D812E302172005A00AB11BD /* Constants.swift */; };
+		8D812E332172015C00AB11BD /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D812E322172015C00AB11BD /* BaseService.swift */; };
+		8D812E382172144800AB11BD /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D812E372172144800AB11BD /* BaseViewController.swift */; };
+		8D812E3B2172161600AB11BD /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D812E392172161600AB11BD /* SignupViewController.swift */; };
+		8D812E3C2172161600AB11BD /* SignupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D812E3A2172161600AB11BD /* SignupViewController.xib */; };
+		8D812E4421723D9200AB11BD /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D812E4321723D9200AB11BD /* People.swift */; };
+		AFC7F41A038694016AF26233 /* Pods_Hackathon_Blinky.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F162EBE473C52A5ABA9B889 /* Pods_Hackathon_Blinky.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B7824EBA16F8531B5E04C3F /* Pods-Hackathon Blinky.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hackathon Blinky.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hackathon Blinky/Pods-Hackathon Blinky.debug.xcconfig"; sourceTree = "<group>"; };
+		8D778631217257C3007FCE8B /* PeopleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleCell.swift; sourceTree = "<group>"; };
+		8D778632217257C3007FCE8B /* PeopleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PeopleCell.xib; sourceTree = "<group>"; };
+		8D77863521725A99007FCE8B /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		8D77863A217261EC007FCE8B /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		8D77863B217261EC007FCE8B /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		8D77863E217267E5007FCE8B /* PeopleNameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleNameCell.swift; sourceTree = "<group>"; };
+		8D77863F217267E5007FCE8B /* PeopleNameCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PeopleNameCell.xib; sourceTree = "<group>"; };
+		8D778642217282D6007FCE8B /* InputAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputAlertViewController.swift; sourceTree = "<group>"; };
+		8D778643217282D6007FCE8B /* InputAlertViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InputAlertViewController.xib; sourceTree = "<group>"; };
+		8D7786472172C750007FCE8B /* AddEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventViewController.swift; sourceTree = "<group>"; };
+		8D7786482172C750007FCE8B /* AddEventViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddEventViewController.xib; sourceTree = "<group>"; };
+		8D77864B2172C7B6007FCE8B /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		8D77864D2172CBB5007FCE8B /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		8D77864F2172D155007FCE8B /* ChooseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseViewController.swift; sourceTree = "<group>"; };
+		8D7786592172DC43007FCE8B /* ChooseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChooseViewController.xib; sourceTree = "<group>"; };
+		8D77865B2172E9CC007FCE8B /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		8D77865C2172E9CC007FCE8B /* EventCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventCell.xib; sourceTree = "<group>"; };
+		8D77865F2172F162007FCE8B /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		8D7786602172F162007FCE8B /* ResultViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultViewController.xib; sourceTree = "<group>"; };
+		8D812E142171FC9500AB11BD /* Hackathon Blinky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hackathon Blinky.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D812E172171FC9500AB11BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8D812E192171FC9500AB11BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8D812E1C2171FC9500AB11BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D812E1E2171FC9700AB11BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D812E212171FC9700AB11BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D812E232171FC9700AB11BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D812E2A2172004900AB11BD /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		8D812E2C2172004D00AB11BD /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8D812E2E2172005400AB11BD /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		8D812E302172005A00AB11BD /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8D812E322172015C00AB11BD /* BaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
+		8D812E372172144800AB11BD /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		8D812E392172161600AB11BD /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		8D812E3A2172161600AB11BD /* SignupViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignupViewController.xib; sourceTree = "<group>"; };
+		8D812E4321723D9200AB11BD /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		8F162EBE473C52A5ABA9B889 /* Pods_Hackathon_Blinky.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hackathon_Blinky.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B83DDBCE140FC2C1D4061053 /* Pods-Hackathon Blinky.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hackathon Blinky.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hackathon Blinky/Pods-Hackathon Blinky.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D812E112171FC9500AB11BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC7F41A038694016AF26233 /* Pods_Hackathon_Blinky.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DB1E1E44702FE640C24ADEE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B7824EBA16F8531B5E04C3F /* Pods-Hackathon Blinky.debug.xcconfig */,
+				B83DDBCE140FC2C1D4061053 /* Pods-Hackathon Blinky.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		16CE8829B5971917845119EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F162EBE473C52A5ABA9B889 /* Pods_Hackathon_Blinky.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D778630217257A9007FCE8B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8D778631217257C3007FCE8B /* PeopleCell.swift */,
+				8D778632217257C3007FCE8B /* PeopleCell.xib */,
+				8D77863E217267E5007FCE8B /* PeopleNameCell.swift */,
+				8D77863F217267E5007FCE8B /* PeopleNameCell.xib */,
+				8D77865B2172E9CC007FCE8B /* EventCell.swift */,
+				8D77865C2172E9CC007FCE8B /* EventCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8D778639217261B8007FCE8B /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				8D77863521725A99007FCE8B /* ContactViewController.swift */,
+				8D77863A217261EC007FCE8B /* SearchViewController.swift */,
+				8D77863B217261EC007FCE8B /* SearchViewController.xib */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		8D7786462172C73A007FCE8B /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				8D7786472172C750007FCE8B /* AddEventViewController.swift */,
+				8D7786482172C750007FCE8B /* AddEventViewController.xib */,
+				8D77864D2172CBB5007FCE8B /* EventsViewController.swift */,
+				8D77864F2172D155007FCE8B /* ChooseViewController.swift */,
+				8D7786592172DC43007FCE8B /* ChooseViewController.xib */,
+				8D77865F2172F162007FCE8B /* ResultViewController.swift */,
+				8D7786602172F162007FCE8B /* ResultViewController.xib */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		8D812E0B2171FC9500AB11BD = {
+			isa = PBXGroup;
+			children = (
+				8D812E162171FC9500AB11BD /* Hackathon Blinky */,
+				8D812E152171FC9500AB11BD /* Products */,
+				0DB1E1E44702FE640C24ADEE /* Pods */,
+				16CE8829B5971917845119EB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8D812E152171FC9500AB11BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D812E142171FC9500AB11BD /* Hackathon Blinky.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D812E162171FC9500AB11BD /* Hackathon Blinky */ = {
+			isa = PBXGroup;
+			children = (
+				8D778630217257A9007FCE8B /* Views */,
+				8D812E4221723D7200AB11BD /* Models */,
+				8D812E34217213F900AB11BD /* ViewControllers */,
+				8D812E292172002A00AB11BD /* Utils */,
+				8D812E172171FC9500AB11BD /* AppDelegate.swift */,
+				8D812E1B2171FC9500AB11BD /* Main.storyboard */,
+				8D812E1E2171FC9700AB11BD /* Assets.xcassets */,
+				8D812E202171FC9700AB11BD /* LaunchScreen.storyboard */,
+				8D812E232171FC9700AB11BD /* Info.plist */,
+			);
+			path = "Hackathon Blinky";
+			sourceTree = "<group>";
+		};
+		8D812E292172002A00AB11BD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8D812E372172144800AB11BD /* BaseViewController.swift */,
+				8D812E302172005A00AB11BD /* Constants.swift */,
+				8D812E2E2172005400AB11BD /* Service.swift */,
+				8D812E322172015C00AB11BD /* BaseService.swift */,
+				8D812E2A2172004900AB11BD /* App.swift */,
+				8D812E2C2172004D00AB11BD /* Extensions.swift */,
+				8D778642217282D6007FCE8B /* InputAlertViewController.swift */,
+				8D778643217282D6007FCE8B /* InputAlertViewController.xib */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8D812E34217213F900AB11BD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8D7786462172C73A007FCE8B /* Events */,
+				8D778639217261B8007FCE8B /* Contacts */,
+				8D812E192171FC9500AB11BD /* ViewController.swift */,
+				8D812E392172161600AB11BD /* SignupViewController.swift */,
+				8D812E3A2172161600AB11BD /* SignupViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8D812E4221723D7200AB11BD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8D812E4321723D9200AB11BD /* People.swift */,
+				8D77864B2172C7B6007FCE8B /* Event.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D812E132171FC9500AB11BD /* Hackathon Blinky */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D812E262171FC9700AB11BD /* Build configuration list for PBXNativeTarget "Hackathon Blinky" */;
+			buildPhases = (
+				434D0E1B9D9495DA8B7545C3 /* [CP] Check Pods Manifest.lock */,
+				8D812E102171FC9500AB11BD /* Sources */,
+				8D812E112171FC9500AB11BD /* Frameworks */,
+				8D812E122171FC9500AB11BD /* Resources */,
+				18DC3657B1BA883632B53A2B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hackathon Blinky";
+			productName = "Hackathon Blinky";
+			productReference = 8D812E142171FC9500AB11BD /* Hackathon Blinky.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D812E0C2171FC9500AB11BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Nguyễn Chí Thành";
+				TargetAttributes = {
+					8D812E132171FC9500AB11BD = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 8D812E0F2171FC9500AB11BD /* Build configuration list for PBXProject "Hackathon Blinky" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D812E0B2171FC9500AB11BD;
+			productRefGroup = 8D812E152171FC9500AB11BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D812E132171FC9500AB11BD /* Hackathon Blinky */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D812E122171FC9500AB11BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D812E222171FC9700AB11BD /* LaunchScreen.storyboard in Resources */,
+				8D77865E2172E9CC007FCE8B /* EventCell.xib in Resources */,
+				8D812E1F2171FC9700AB11BD /* Assets.xcassets in Resources */,
+				8D77864A2172C750007FCE8B /* AddEventViewController.xib in Resources */,
+				8D77865A2172DC43007FCE8B /* ChooseViewController.xib in Resources */,
+				8D77863D217261EC007FCE8B /* SearchViewController.xib in Resources */,
+				8D778634217257C3007FCE8B /* PeopleCell.xib in Resources */,
+				8D7786622172F162007FCE8B /* ResultViewController.xib in Resources */,
+				8D778645217282D6007FCE8B /* InputAlertViewController.xib in Resources */,
+				8D778641217267E5007FCE8B /* PeopleNameCell.xib in Resources */,
+				8D812E3C2172161600AB11BD /* SignupViewController.xib in Resources */,
+				8D812E1D2171FC9500AB11BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18DC3657B1BA883632B53A2B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Hackathon Blinky/Pods-Hackathon Blinky-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GSMessages/GSMessages.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GSMessages.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hackathon Blinky/Pods-Hackathon Blinky-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		434D0E1B9D9495DA8B7545C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hackathon Blinky-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D812E102171FC9500AB11BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D7786512172D155007FCE8B /* ChooseViewController.swift in Sources */,
+				8D812E3B2172161600AB11BD /* SignupViewController.swift in Sources */,
+				8D7786612172F162007FCE8B /* ResultViewController.swift in Sources */,
+				8D7786492172C750007FCE8B /* AddEventViewController.swift in Sources */,
+				8D812E2B2172004900AB11BD /* App.swift in Sources */,
+				8D812E1A2171FC9500AB11BD /* ViewController.swift in Sources */,
+				8D812E2F2172005400AB11BD /* Service.swift in Sources */,
+				8D812E4421723D9200AB11BD /* People.swift in Sources */,
+				8D77863721725A99007FCE8B /* ContactViewController.swift in Sources */,
+				8D812E182171FC9500AB11BD /* AppDelegate.swift in Sources */,
+				8D77864C2172C7B6007FCE8B /* Event.swift in Sources */,
+				8D812E382172144800AB11BD /* BaseViewController.swift in Sources */,
+				8D77863C217261EC007FCE8B /* SearchViewController.swift in Sources */,
+				8D77865D2172E9CC007FCE8B /* EventCell.swift in Sources */,
+				8D812E332172015C00AB11BD /* BaseService.swift in Sources */,
+				8D812E2D2172004D00AB11BD /* Extensions.swift in Sources */,
+				8D778633217257C3007FCE8B /* PeopleCell.swift in Sources */,
+				8D812E312172005A00AB11BD /* Constants.swift in Sources */,
+				8D778640217267E5007FCE8B /* PeopleNameCell.swift in Sources */,
+				8D778644217282D6007FCE8B /* InputAlertViewController.swift in Sources */,
+				8D77864E2172CBB5007FCE8B /* EventsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8D812E1B2171FC9500AB11BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D812E1C2171FC9500AB11BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8D812E202171FC9700AB11BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D812E212171FC9700AB11BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D812E242171FC9700AB11BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D812E252171FC9700AB11BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D812E272171FC9700AB11BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B7824EBA16F8531B5E04C3F /* Pods-Hackathon Blinky.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 484J2S9Q5U;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Hackathon\\ Blinky/Frameworks",
+					"$(PROJECT_DIR)/Hackathon\\ Blinky/Frameworks",
+				);
+				INFOPLIST_FILE = "Hackathon Blinky/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.stindy.Hackathon-Blinky";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D812E282171FC9700AB11BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B83DDBCE140FC2C1D4061053 /* Pods-Hackathon Blinky.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 484J2S9Q5U;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Hackathon\\ Blinky/Frameworks",
+					"$(PROJECT_DIR)/Hackathon\\ Blinky/Frameworks",
+				);
+				INFOPLIST_FILE = "Hackathon Blinky/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.stindy.Hackathon-Blinky";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D812E0F2171FC9500AB11BD /* Build configuration list for PBXProject "Hackathon Blinky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D812E242171FC9700AB11BD /* Debug */,
+				8D812E252171FC9700AB11BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D812E262171FC9700AB11BD /* Build configuration list for PBXNativeTarget "Hackathon Blinky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D812E272171FC9700AB11BD /* Debug */,
+				8D812E282171FC9700AB11BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D812E0C2171FC9500AB11BD /* Project object */;
+}
